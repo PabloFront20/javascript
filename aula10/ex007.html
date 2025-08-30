@@ -19,8 +19,10 @@
 </head>
 <body>
     <h1>Somando Valores</h1>
-    <input type="number" name="txtn1" id="txtn1"> +
-    <input type="number" name="txtn2" id="txtn2">
+    <label for="txtn1">Número 1:</label>
+    <input type="number" name="txtn1" id="txtn1" placeholder="Digite o 1º número" title="Digite o primeiro número"> +
+    <label for="txtn2">Número 2:</label>
+    <input type="number" name="txtn2" id="txtn2" placeholder="Digite o 2º número" title="Digite o segundo número">
     <input type="button" value="somar" onclick="somar()">
     <div id="res">Resultado</div>
     <script>
